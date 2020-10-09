@@ -1,148 +1,168 @@
-a<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Enter your description here" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="" alt="" />
-      </div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">My Service</a>
-          </li>
-          <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
-        </ul>
-      </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Andrew's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="assets\css\styles.css">
 
-    <!--Introduction-->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Andrew Souza</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">
-        FullStack Developer
-      </p>
-      <img src="" alt="" />
-    </section>
-
-    <!--My Services-->
-    <section class="my-services" id="services">
-      <h2 class="section__title section__title--service">What I Do</h2>
-      <div class="services">
-        <div class="service">
-          <h3></h3>
-          <p></p>
-        </div>
-      </div>
-      <!--/ Service-->
-
-      <div class="service">
-        <h3></h3>
-        <p></p>
-      </div>
-    </div>
-    <!--/ Service-->
-
-    <div class="service">
-        <h3></h3>
-        <p></p>
-      </div>
-    </div>
-    <!--/ Service-->
-
-    <a href="#work" class="btn">My Work</a>
-</section>
-
-<!--About me-->
-<section class="about-me" id="about">
-    <h2 class="section__title section__title--about">
-        Who I Am
-    </h2>
-    <p class="section__subtitle section__subtitle--about"></p>
-    <div class="about-me__body">
-        <p></p>
-    </div>
-    <img src="" alt="">
-</section>
-
-<!--Projects-->
-<section class="projects" id="projects">
-    <h2 class="section__title">Projects</h2>
-    <p class="section__subtitle"></p>
-
-    <div class="portfolio">
-        <a href="#" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img">
-        </a>
-    </div>
-
-    <div class="portfolio">
-        <a href="#" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img">
-        </a>
-    </div>
-
-    <div class="portfolio">
-        <a href="#" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img">
-        </a>
-    </div>
-
-    <div class="portfolio">
-        <a href="#" class="portfolio__item">
-            <img src="" alt="" class="portfolio__img">
-        </a>
-    </div>
-
-</section>
-
-<!--Footer-->
-<footer>
-    <a href="mailto:drewmargielaa@gmail.com" class="footer__link">drewmargielaa@gmail.com</a>
-    <ul class="social-list">
-        <li class="social-list__item"><a class="social-list__link"
-            href="">A</a></li>
-
-            <li class="social-list__item"><a class="social-list__link"
-                href="">A</a></li>
-
-                <li class="social-list__item"><a class="social-list__link"
-                    href="">A</a></li>
-
-                    <li class="social-list__item"><a class="social-list__link"
-                        href="">A</a></li>
-    </ul>
-</footer>
-
-    
-
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/cropped logo.jpg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Andrew Souza</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
+            <img src="img/andrew (2).jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I Do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I Am</h2>
+           <p class="section__subtitle section__subtitle--about">Full Stack Developer Based Of NYC</p>
+           
+           <div class="about-me__body">
+               <p>Web Developer with a background in Customer Service.  Recognized as proactive, resourceful, and persistent problem-solver.  Excellent communicator with effective client relationship building skills. Certificate in Web Development from Rutgers University.</p>
+           </div>
+           
+           <img src="img/andrew (2).jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img\ecom.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://drewmargielaa.github.io/color-flipper/" class="portfolio__item">
+                    <img src="img\colorflipper.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://drewmargielaa.github.io/reviews/" class="portfolio__item">
+                    <img src="img\reviews.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://drewmargielaa.github.io/counter/" class="portfolio__item">
+                    <img src="img\counter.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 0 0-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:drewmargielaa@gmail.com" class="footer__link">drewmargielaa@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.freecodecamp.org/drewmargielaa">
+                        <i class="fab fa-free-code-camp"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/andrew-souza-4a31aa1a2/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/drewmargielaa">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="js\index.js"></script>
+    </body>
 </html>
